@@ -10,12 +10,12 @@ import { Carritocompra } from './carritocompra/entities/carritocompra.entity';
 @Module({
   imports: [
     TypeOrmModule.forRoot({
-      type: 'postgres',
-      host: 'ep-empty-wildflower-11657261.us-east-2.aws.neon.tech',
+      type: '',
+      host: '',
       port: 5432,
-      username: 'IrvingCM123',
-      password: 'mh4qVtC3HUGl',
-      database: 'Web',
+      username: '',
+      password: '',
+      database: '',
       entities: [Producto, Carritocompra],
       synchronize: true,
       ssl: true,
