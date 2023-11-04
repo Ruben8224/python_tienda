@@ -12,11 +12,11 @@ import { ProductosModule } from './productos/productos.module';
     TypeOrmModule.forRoot({
       type: 'postgres',
       host: 'ep-empty-wildflower-11657261.us-east-2.aws.neon.tech',
-      port: 5433,
-      username: 'postgres',
-      password: 'Ruben',
-      database: 'web',
-      entities: [Producto, Carritocompra], // Agrega tus entidades aquí
+      port: 5432,
+      username: 'IrvingCM123',
+      password: 'mh4qVtC3HUGl',
+      database: 'Web',
+      entities: [Producto, Carritocompra],
       synchronize: true,
       ssl: true,
       extra: {
